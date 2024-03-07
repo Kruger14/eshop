@@ -1,0 +1,79 @@
+/* Common styles for ul, li, a, h2, and p */
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+ul,
+li,
+a,
+p {
+    list-style: none;
+    text-align: center;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+/* Common styles for .footer-wrapper, .About, .shop, .connect-us, .quick-links */
+.footer-wrapper,
+.About,
+.shop,
+.connect-us,
+.quick-links {
+    padding: 15px 25px;
+    background-color: bisque;
+}
+
+.footer-wrapper {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    height: 250px;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 3px 0px -2px 0px black;
+}
+
+/* Common styles for .About, .shop, .connect-us, .quick-links */
+.About,
+.shop,
+.connect-us,
+.quick-links {
+    width: 25%;
+    padding: 10px;
+}
+
+.inner {
+    height: 120px;
+    width: auto;
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    width: auto;
+    padding: 10px;
+}
+
+img {
+    height: 32px;
+    width: 32px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About,
+    .shop,
+    .connect-us,
+    .quick-links {
+        width: 100%;
+    }
+}

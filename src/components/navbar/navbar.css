@@ -1,0 +1,141 @@
+.navbarContainer {
+    background-color: aqua;
+    height: 60px;
+    font-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px -2px rgb(188, 178, 178);
+}
+
+.logoContainer,
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+}
+
+/* search */
+.searchcontainer {
+    position: sticky;
+    width: auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+        height: 25px;
+        border: none;
+        border-radius: 15px;
+        padding: 2px;
+    }
+
+    .finder {
+        border: 1px solid black;
+        position: relative;
+        left: -185px;
+        height: 500px;
+        width: 200px;
+        bottom: -270px;
+        overflow: scroll;
+    }
+
+    #search {
+        position: relative;
+        bottom: -3px;
+        left: 3px;
+        height: 20px;
+        width: 20px;
+    }
+}
+
+/* ul and li */
+.pageLink {
+    height: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul,
+    li {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: black;
+        gap: 50px;
+    }
+
+
+
+    .ul,
+    li:hover {
+        border-bottom: 2px solid red;
+        cursor: pointer;
+    }
+}
+
+/* icons */
+
+.login-btn {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: cadetblue;
+
+    &:hover {
+        background-color: bisque;
+        cursor: pointer;
+    }
+}
+
+.cart {
+    .cartcontainer {
+        #cartnum {
+            position: relative;
+            bottom: 39px;
+            left: 29px;
+        }
+    }
+
+    #cartsvg {
+        height: 60px;
+        width: 25px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Add your responsive styles here */
+    .navbarContainer {
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+
+        .centerContainer {
+            height: auto;
+            width: 50%;
+
+            .searchbar {
+                height: auto;
+                width: 600px;
+            }
+        }
+    }
+}

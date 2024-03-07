@@ -1,0 +1,59 @@
+.wrapper {
+    display: flex;
+    margin: 50px;
+    border-radius: 19px;
+    background: linear-gradient(315deg, #cacaca, #f0f0f0);
+
+}
+
+.left {
+    margin: 25px;
+    height: 100%;
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    margin: 15px 0px;
+    justify-content: center;
+
+    img {
+        height: 45%;
+        width: 45%;
+        border-radius: 15px;
+    }
+}
+
+.text-title {
+    font-size: 12px;
+    line-height: 0.5px;
+}
+
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.addbtn {
+    border: 1px solid green;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+button:hover {
+    cursor: pointer;
+}
