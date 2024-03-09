@@ -1,5 +1,4 @@
 .cart {
-    display: grid;
     grid-template-columns: repeat(3, 2fr);
     gap: 50px;
     padding: 50px;

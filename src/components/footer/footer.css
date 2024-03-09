@@ -22,7 +22,6 @@ p {
 .connect-us,
 .quick-links {
     padding: 15px 25px;
-    background-color: bisque;
 }
 
 .footer-wrapper {
@@ -39,8 +38,11 @@ p {
 .shop,
 .connect-us,
 .quick-links {
+    display: grid;
     width: 25%;
     padding: 10px;
+    background-color: #873e23;
+    border-radius: 12px;
 }
 
 .inner {
