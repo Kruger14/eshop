@@ -36,12 +36,12 @@ const Footer = () => {
             <div className="quick-links">
                 <h2>Quick links</h2>
                 <div className='inner'>
-                    <ul>
-                        <li>Privacy Policy</li>
-                        <li>Terms of Service</li>
-                        <li>Shipping Policy</li>
-                        <li>Refund Policy</li>
-                    </ul>
+
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Shipping Policy</li>
+                    <li>Refund Policy</li>
+
                 </div>
             </div>
         </div >

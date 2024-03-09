@@ -31,7 +31,7 @@ const Navbar = () => {
 
       <div className="searchcontainer">
         <div className="combiner">
-          <input type='search' value={searchQuery} onChange={handleChange} />
+          <input id='inp-search' type='search' value={searchQuery} onChange={handleChange} />
           <IoIosSearch id='search' onClick={handleSearch} />
         </div>
         {searchQuery && (

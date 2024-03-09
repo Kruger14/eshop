@@ -4,7 +4,6 @@ h2 {
     text-align: center;
 }
 
-ul,
 li,
 a,
 p {
@@ -44,6 +43,7 @@ p {
     background-color: #873e23;
     border-radius: 12px;
 }
+
 
 .inner {
     height: 120px;
