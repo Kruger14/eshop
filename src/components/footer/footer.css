@@ -78,4 +78,8 @@ img {
     .quick-links {
         width: 100%;
     }
+
+    .inner {
+        overflow: scroll;
+    }
 }
