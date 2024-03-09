@@ -3,6 +3,9 @@
     height: 100%;
     width: 100%;
     background-color: #10a6c0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .boxcontainer {
@@ -11,7 +14,6 @@
     align-items: center;
     margin: 50px;
     height: 80%;
-    width: 80%;
     background-color: #10a6c0;
 
     .info {
