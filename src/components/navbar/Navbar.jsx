@@ -21,7 +21,6 @@ const Navbar = () => {
   const handleSearch = () => {
     const searchResult = All_product.filter(item => item.name.toLowerCase().includes(searchQuery.toLowerCase()));
     setResult(searchResult);
-    console.log(searchResult)
   };
 
   return (
@@ -46,21 +45,21 @@ const Navbar = () => {
 
       <div className='pageLink'>
         <ul>
-          <li><Link to='/'>Shop</Link></li>
-          <li><Link to='/men'>Men</Link></li>
-          <li><Link to='/womens'>Women</Link></li>
-          <li><Link to='/kids'>Kids</Link></li>
+          <li><Link className='Link' to='/'>Shop</Link></li>
+          <li><Link className='Link' to='/men'>Men</Link></li>
+          <li><Link className='Link' to='/womens'>Women</Link></li>
+          <li><Link className='Link' to='/kids'>Kids</Link></li>
         </ul>
       </div>
 
       <div className='login-btn'>
-        <h3><Link to='/login'>Log-in</Link></h3>
+        <h3><Link className='Link' to='/login'>Log-in</Link></h3>
       </div>
 
       <div className="cart">
         <div className="cartcontainer">
           <span id='cartnum'>{cartItems.length}</span>
-          <Link to={'/Cart'}><FaShoppingCart id='cartsvg' /></Link>
+          <Link className='Link' to={'/Cart'}><FaShoppingCart id='cartsvg' /></Link>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@
     border: 1px solid black;
     height: 100%;
     width: 100%;
+    background-color: #10a6c0;
 }
 
 .boxcontainer {
@@ -11,6 +12,7 @@
     margin: 50px;
     height: 80%;
     width: 80%;
+    background-color: #10a6c0;
 
     .info {
         margin: 50px;
@@ -36,6 +38,7 @@
 
     .banner,
     img {
+        background-color: #1e9716;
         height: 400px;
         width: 400px;
         clip-path: ellipse(51% 49% at 48% 51%);
