@@ -139,11 +139,11 @@ img {
 
         .centerContainer {
             height: auto;
-            width: 50%;
+            width: auto;
 
             .searchbar {
                 height: auto;
-                width: 600px;
+                width: auto;
             }
         }
     }

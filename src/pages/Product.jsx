@@ -36,7 +36,6 @@ const Product = () => {
                 <div className='btn'>
                     <button className='addbtn' onClick={handleadd}>Add To Cart</button>
                 </div>
-                <p>Quantity: {data.count}</p>
             </div>
         </div>
     );
