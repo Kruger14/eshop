@@ -40,7 +40,6 @@
 
     .banner,
     img {
-        background-color: #1e9716;
         height: 400px;
         width: 400px;
         clip-path: ellipse(51% 49% at 48% 51%);
