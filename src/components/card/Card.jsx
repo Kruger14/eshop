@@ -45,8 +45,8 @@ const Card = (props) => {
                 </div>
 
                 <div className='container-btns'>
-                    <button className='btn' onClick={() => handleadd(props.all_product, items)}>Add</button>
-                    <button className='btn' onClick={() => handlerem(props.id)}>Remove</button>
+                    <button className='button' onClick={() => handleadd(props.all_product, items)}>Add</button>
+                    <button className='button' onClick={() => handlerem(props.id)}>Remove</button>
                 </div>
             </div>
         </div >

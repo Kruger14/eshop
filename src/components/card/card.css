@@ -64,9 +64,7 @@
     border-radius: 25px;
 
     button {
-        height: 40px;
-        width: 60px;
-        background: #183153;
-        border-radius: 5px;
+        margin: 10px;
+        background-color: #273248;
     }
 }
